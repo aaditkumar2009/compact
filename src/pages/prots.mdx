@@ -1,0 +1,52 @@
+---
+layout: ../layouts/MarkdownLayout.astro
+title: Internet Protocols - Aadit
+---
+
+## Internet Protocols: TCP/IP, HTTP, and HTTPS
+
+The internet, with its vast network of websites and information, might seem magical at times. But beneath the surface, a complex ecosystem of protocols ensures smooth communication and data transfer. We'll delve into three crucial players: TCP/IP, HTTP, and HTTPS.
+
+### TCP/IP: The Foundation of Communication
+
+Imagine a bustling city with countless mail carriers rushing around. To ensure packages arrive safely at their destinations, a reliable postal system is essential. That's the role TCP/IP (Transmission Control Protocol/Internet Protocol) plays on the internet. It's a suite of protocols that define how data is broken down, packaged, sent, and reassembled at its destination.
+
+* **Breaking Down the Data:**  TCP/IP ensures that large files or messages are broken down into smaller, manageable packets. These packets are then individually addressed and routed through the network, taking the most efficient path to their destination.
+* **Ensuring Delivery:**  Once packets reach their destination, TCP/IP verifies their arrival and reassembles them in the correct order. If any packets are lost or corrupted during transmission, TCP/IP can request them to be sent again, guaranteeing reliable data delivery.
+
+**Think of TCP as the meticulous mail carrier who carefully packages, addresses, and delivers your information, ensuring it arrives complete and unharmed.**
+
+
+### HTTP: The Language of the Web
+
+Now that we understand how data travels, let's explore how websites and web browsers communicate. HTTP (Hypertext Transfer Protocol) acts as the common language used by web browsers and web servers to exchange information.
+
+* **Request and Response:** When you enter a website address in your browser, it sends an HTTP request to the web server. This request specifies the webpage or resource you're trying to access.  The web server then processes the request, retrieves the requested information, and sends back an HTTP response containing the webpage's HTML code and other resources.
+* **Serving Up Content:** Your web browser receives the HTTP response, interprets the HTML code, and displays the webpage on your screen. This includes text, images, videos, and other elements that make up the webpage.
+
+**Imagine HTTP as a conversation between your browser and the web server. The browser asks for something specific (a webpage), and the server responds by providing the requested information.**
+
+
+### HTTPS: Adding a Layer of Security
+
+The internet is a vast and sometimes unpredictable place. HTTPS (Hypertext Transfer Protocol Secure) is a more secure version of HTTP that encrypts communication between your browser and the web server.
+
+* **Encryption for Peace of Mind:**  When you access a website using HTTPS, the data exchanged (including usernames, passwords, and other sensitive information) is encrypted. This encryption scrambles the data, making it unreadable to anyone who might intercept it during transmission.
+* **Building Trust:**  The use of HTTPS indicates that a website takes security seriously and protects your information.  Seeing the padlock symbol in your browser's address bar when you visit a website is a good indicator that it uses HTTPS.
+
+**Think of HTTPS as adding a layer of security to your online communication. It's like sending a confidential message in a locked box, ensuring only the intended recipient can access its contents.**
+
+
+By understanding TCP/IP, HTTP, and HTTPS, you gain a deeper appreciation for the intricate workings of the internet. These fundamental protocols work together seamlessly to ensure reliable data transfer, clear communication between web browsers and servers, and secure online interactions.
+
+
+<div className="flex justify-between">
+  <a href="/urls"
+    className="block px-8 py-3 text-white font-bold rounded-lg outline outline-offset-2 border-transparent">
+    Back to Uniform Resource Locator
+  </a>
+  <a href="/ftprlp"
+    className="block px-8 py-3 text-white font-bold rounded-lg outline outline-offset-2 border-transparent">
+    Next to FTPs & RLPs
+  </a>
+</div>
